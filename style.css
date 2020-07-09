@@ -1,0 +1,65 @@
+h1
+{
+	font-size: 40px;
+}
+h2
+{
+	font-size: 22px;
+}
+li
+{
+	font-size: 16px;
+}
+body {
+  color: rgb(10, 10, 10);
+  background-color: #DFDDDF;
+}
+h1, p, img
+{
+	text-align: center;
+}
+
+#banner{
+	margin: 30px;
+	padding: 20px;
+	border: 1px solid rgba(30, 40, 50, 0.1);
+	border-radius: 50px;
+	color: rgb(10, 10, 10);
+	background-color: white;
+}
+
+.chapter {
+	margin: 20px auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.footer {
+	margin: 0px;
+	padding: 0px;
+	background-color: yellow;
+	text-align: center;
+}
+
+.container {
+	width : 400px;
+	margin : auto auto;
+}
+
+.chapters {
+	display : grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+}
+
+@media (min-width : 800px) {
+	.container {
+    width: 700px;}
+    .chapters{
+    	grid-template-columns: 1fr 1fr 1fr}
+}
+
+.typeform-share button {
+	align-items: center;
+}
